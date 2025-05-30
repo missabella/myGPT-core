@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Hello World Action",
+    "description": "A test action that simply returns 'Hello World' when called.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/hello": {
+      "post": {
+        "operationId": "sayHello",
+        "summary": "Say Hello",
+        "description": "Returns a static greeting: 'Hello World'",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Hello World"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

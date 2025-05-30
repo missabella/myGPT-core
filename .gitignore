@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Environment variable files
+*.env
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+poetry.lock
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy and Pylint reports
+.mypy_cache/
+.pylint.d/
+
+# Pytest cache
+.pytest_cache/

@@ -1,0 +1,12 @@
+# Core web dependencies
+fastapi
+uvicorn
+
+# HTTP requests
+requests
+
+# Data validation
+pydantic
+
+# Secure env loading
+python-dotenv
