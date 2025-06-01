@@ -10,3 +10,6 @@ pydantic
 
 # Secure env loading
 python-dotenv
+
+# Notion API client
+notion-client
